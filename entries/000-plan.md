@@ -89,11 +89,11 @@
 1. **Vaultwarden** — centralize secrets
 2. **Netdata** — add metrics dashboards
 3. **Caddy** — when a domain is available, add HTTPS and subdomains
-4. **Authelia** — if GM needs browser SSO without Tailscale
+4. **Authelia** — if needs browser SSO without Tailscale
 5. **CrowdSec** — if services are exposed publicly
 6. **Samba AD** — only if local accounts become unmanageable
 7. **Monthly restore test** — prove the backup works
-8. **Risk register** — document accepted risks, get sign-off from management
+
 
 ---
 
