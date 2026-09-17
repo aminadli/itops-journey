@@ -6,7 +6,7 @@
 | Hypervisor | Oracle VirtualBox | Test lab before production Hyper-V |
 | OS | Ubuntu Server | LTS support, Docker-friendly |
 | Containers | Docker + Compose | Declarative, portable, reproducible |
-| Reverse proxy | Caddy *(planned)* | Auto HTTPS, single binary |
+| Reverse proxy | Caddy  | Auto HTTPS, single binary |
 | VPN | Tailscale | Zero-config mesh, works behind NAT |
 | Firewall | UFW + Fail2ban | Default deny, brute-force protection |
 | Monitoring | Uptime Kuma, Netdata *(planned)* | Uptime + metrics |
