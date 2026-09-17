@@ -26,3 +26,18 @@ By documenting this lightweight, self-hosted, and open-source Docker deployment,
 
 ## 📌 Active Code Base
 * Main Application Repository: (https://github.com/aminadli/it-ops-stack)
+
+
+## Acknowledgments
+
+Built entirely from open-source software. No commercial licenses, no cloud spend. Total cost: one domain (when we buy it) and electricity.
+
+The constraints made this harder than it needed to be. They also made it more educational.
+
+---
+
+*Written by a solo admin who now understands why "just copy the config" is dangerous advice.*
+
+---
+
+
