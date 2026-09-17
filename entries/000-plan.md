@@ -45,7 +45,7 @@
 
 ### The Big Ones
 
-1. **Edit on the PC. Pull on the server. Never edit on the server.** Every server-side edit caused drift and required cleanup. This single rule would have saved hours.
+1. **Edit on the PC, add, commit and push. Pull on the server. Never edit on the server.** Every server-side edit caused drift and required cleanup. This single rule would have saved hours.
 
 2. **Named volumes, not bind mounts, for service data.** Bind mounts leak into Git and cause permission issues.
 
