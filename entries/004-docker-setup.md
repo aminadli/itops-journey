@@ -6,6 +6,31 @@
 3. Created a shared Docker network (`shared_network`)
 4. Verified with `docker run hello-world`
 
+### Code 
+# 1. Update system
+sudo apt update && sudo apt upgrade -y
+
+# 2. Install Docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+# 3. Add user to docker group
+sudo usermod -aG docker $USER
+newgrp docker
+
+# 4. Enable and start Docker
+sudo systemctl enable --now docker
+
+# 5. Verify
+docker run hello-world
+docker compose version
+
+# 6. Create shared network
+docker network create shared_network
+
+# 7. Final check
+docker network ls | grep shared_network
+
 ### Difficulties
 
 | Problem | Fix |
